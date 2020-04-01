@@ -1,0 +1,82 @@
+$body-bg: rgb(7, 7, 7) !important;
+.backpack {
+    background-color: #10a372;
+    border-radius: 30px;
+    
+}
+
+.m-x {
+    margin-top: 70px;
+}
+
+.sm-caps {
+    font-variant: small-caps;
+}
+
+.neg-ml {
+    margin-left: -20px;
+  }
+
+.radius {
+    border-radius: 60px !important;
+  }
+
+.shadow-sm {
+    -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important; }
+  
+  .shadow {
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; }
+  
+  .shadow-lg {
+    -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important; }
+  
+  .shadow-none {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important; }
+
+.hero {
+   
+    
+
+    &::after {
+        background-image: linear-gradient( 181deg,  rgba(2,0,97,1) 15%, rgba(97,149,219,1) 158.5% );
+        content: ' ';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.70;
+        z-index: -0;
+        
+    }
+
+    
+   
+}
+
+
+
+@media screen and (max-width: 760px) {
+        .hero {
+            &::after {
+                display: none;
+                
+            }
+        }
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.bg-app {
+    background: rgb(7, 7, 7) !important;
+}
